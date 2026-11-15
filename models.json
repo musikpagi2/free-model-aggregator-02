@@ -1,0 +1,132 @@
+{
+  "models": [
+    {
+      "context_length": 1024000,
+      "free": true,
+      "id": "openrouter/baidu/ernie-5.5-flash-preview:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 256000,
+      "free": true,
+      "id": "openrouter/cohere/north-mini-code:free",
+      "json": false,
+      "rating_milli": 1200,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 512000,
+      "free": true,
+      "id": "openrouter/dots-studio/dots-3-note-preview:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 262144,
+      "free": true,
+      "id": "openrouter/google/gemma-4-26b-a4b-it:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 262144,
+      "free": true,
+      "id": "openrouter/google/gemma-4-31b-it:free",
+      "json": true,
+      "rating_milli": 1210,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 1048576,
+      "free": true,
+      "id": "openrouter/inclusionai/ling-3.2-flash:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 262144,
+      "free": true,
+      "id": "openrouter/liquid/lfm-3-1.7b:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 256000,
+      "free": true,
+      "id": "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "json": false,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 1000000,
+      "free": true,
+      "id": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "json": false,
+      "rating_milli": 1285,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 1000000,
+      "free": true,
+      "id": "openrouter/nvidia/nemotron-3.5-lightning:free",
+      "json": false,
+      "rating_milli": 1221,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 1000000,
+      "free": true,
+      "id": "openrouter/nvidia/nemotron-3.5-super-vl:free",
+      "json": true,
+      "rating_milli": 1303,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 1048576,
+      "free": true,
+      "id": "openrouter/particle-ai/particle-1:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": true
+    },
+    {
+      "context_length": 262144,
+      "free": true,
+      "id": "openrouter/recursive/flint-v1.0:free",
+      "json": true,
+      "rating_milli": 1150,
+      "tools": true,
+      "vision": false
+    },
+    {
+      "context_length": 1048576,
+      "free": true,
+      "id": "openrouter/thinkingmachines/inkling-2-small:free",
+      "json": false,
+      "rating_milli": 1475,
+      "tools": true,
+      "vision": true
+    }
+  ],
+  "note": "The fourteen free OpenRouter models the gateway routes, in catalog order. id is the dialable id (with the openrouter/ prefix); rating_milli is the house quality rating, higher is stronger; context_length is the model's window in tokens. All fourteen support tools; json marks JSON-mode support.",
+  "schema": "free-model-aggregator-02/models/v1"
+}

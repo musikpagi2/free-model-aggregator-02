@@ -1,0 +1,1 @@
+{"description":"One server aggregating OpenRouter's fourteen free models behind a single endpoint (OpenAI + Anthropic wires).","engines":{"node":">=22"},"license":"MIT","main":"main.ts","name":"free-model-aggregator-02","scripts":{"check":"node --check main.ts","list":"node main.ts --list","start":"node main.ts"},"type":"module","version":"1.0.0"}
